@@ -11,16 +11,19 @@ sources:
   "1.17.1":
     url: "https://github.com/Blosc/c-blosc/archive/v1.17.1.tar.gz"
     sha256: "19a6948b579c27e8ac440b4f077f99fc90e7292b1d9cb896bec0fd781d68fba2"
+  "1.20.1":
+    url: "https://github.com/Blosc/c-blosc/archive/v1.20.1.tar.gz"
+    sha256: "42c4d3fcce52af9f8e2078f8f57681bfc711706a3330cb72b9b39e05ae18a413"
 patches:
   "1.20.0":
-    - patch_file: "patches/cmake-dependencies-1.20.0+.patch"
-      base_path: "source_subfolder"
+  - patch_file: "patches/cmake-dependencies-1.20.0+.patch"
+    base_path: "source_subfolder"
   "1.19.0":
-    - patch_file: "patches/cmake-dependencies-1.19.0.patch"
-      base_path: "source_subfolder"
+  - patch_file: "patches/cmake-dependencies-1.19.0.patch"
+    base_path: "source_subfolder"
   "1.18.1":
-    - patch_file: "patches/cmake-dependencies-1.18.1-.patch"
-      base_path: "source_subfolder"
+  - patch_file: "patches/cmake-dependencies-1.18.1-.patch"
+    base_path: "source_subfolder"
   "1.17.1":
-    - patch_file: "patches/cmake-dependencies-1.18.1-.patch"
-      base_path: "source_subfolder"
+  - patch_file: "patches/cmake-dependencies-1.18.1-.patch"
+    base_path: "source_subfolder"
