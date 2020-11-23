@@ -1,8 +1,14 @@
 sources:
+  "1.8.93":
+    url: "https://github.com/awslabs/aws-sdk-cpp/archive/1.8.93.tar.gz"
+    sha256: "af7c91f2f2960f8aeae9cc9568f4f8323f04b6c8f9659682be657abc964a39ff"
   "0.4.25":
     sha256: "f85a8f74e42bd983a4615654457f8037876bc6b8dbf890e368bb516cbc2e9844"
     url: "https://github.com/awslabs/aws-c-common/archive/v0.4.25.tar.gz"
 patches:
+  "1.8.93":
+    - patch_file: "patches/0001-disable-fPIC.patch"
+      base_path: "source_subfolder"
   "0.4.25":
     - patch_file: "patches/0001-disable-fPIC.patch"
       base_path: "source_subfolder"
