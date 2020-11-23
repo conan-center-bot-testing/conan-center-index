@@ -1,4 +1,7 @@
 sources:
+  "0.21.10":
+    url: "https://github.com/xtensor-stack/xtensor/archive/0.21.10.tar.gz"
+    sha256: "0d1ff8c5f801b566891cfb5c68718f838be94a0b6e07e3fc6164f66e5ec6d3b5"
   "0.21.5":
     sha256: 30cb896b6686683ddaefb12c98bf1109fdfe666136dd027aba1a1e9aa825c241
     url: https://github.com/xtensor-stack/xtensor/archive/0.21.5.tar.gz
