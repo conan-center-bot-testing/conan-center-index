@@ -1,8 +1,16 @@
 sources:
+  "2.3.4":
+    url: "https://github.com/accellera-official/systemc/archive/2.3.4_pub_rev_20190614.tar.gz"
+    sha256: "987378a5429c104cda1ab3f7a15726793fe856d0fe48670fdf5728b55d95ae6c"
   "2.3.3":
     url: https://github.com/accellera-official/systemc/archive/2.3.3.tar.gz
     sha256: 5781b9a351e5afedabc37d145e5f7edec08f3fd5de00ffeb8fa1f3086b1f7b3f
 patches:
+  "2.3.4":
+    - patch_file: "patches/sc_string_view.patch"
+      base_path: "source_subfolder"
+    - patch_file: "patches/CMakeLists.patch"
+      base_path: "source_subfolder"
   "2.3.3":
     - patch_file: "patches/sc_string_view.patch"
       base_path: "source_subfolder"
