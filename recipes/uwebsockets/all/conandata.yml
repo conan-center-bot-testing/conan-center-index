@@ -1,4 +1,7 @@
 sources:
+  "18.15.0":
+    url: "https://github.com/uNetworking/uWebSockets/archive/v18.15.0.tar.gz"
+    sha256: "fd2fa7f63e68a949668d264c8ce74b4feda9841266ae0d0017a2f5fee293aab2"
   "18.3.0":
     url: "https://github.com/uNetworking/uWebSockets/archive/v18.3.0.tar.gz"
     sha256: "f51317e2a8cd743e6ff9dfd215569824eaca489c24f7d8fd94eaca44443a9728"
