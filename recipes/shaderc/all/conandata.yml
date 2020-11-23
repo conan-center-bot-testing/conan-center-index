@@ -1,8 +1,16 @@
 sources:
+  "2020.3":
+    url: "https://github.com/google/shaderc/archive/v2020.3.tar.gz"
+    sha256: "e595f71d0db0c37ee959b538cfda16e39e3f0dce8893a0bc0ac0080c342c0275"
   "2019.0":
     url: "https://github.com/google/shaderc/archive/v2019.0.tar.gz"
     sha256: "1018cd02be52295272fdbffa056ee24b881be277c83d039ad554d91230f4e11b"
 patches:
+  "2020.3":
+    - patch_file: "patches/2019.0/fix-cmake.patch"
+      base_path: "source_subfolder"
+    - patch_file: "patches/2019.0/fix-spvc.patch"
+      base_path: "source_subfolder"
   "2019.0":
     - patch_file: "patches/2019.0/fix-cmake.patch"
       base_path: "source_subfolder"
