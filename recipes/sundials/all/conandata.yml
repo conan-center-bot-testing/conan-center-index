@@ -1,4 +1,7 @@
 sources:
+  "5.5.0":
+    url: "https://github.com/LLNL/sundials/archive/v5.5.0.tar.gz"
+    sha256: "a39325fdd164bb444a90f9e2086b77b7897086c12c6c5e2db4aab8e8a2b1cc87"
   "5.4.0":
     url: "https://github.com/LLNL/sundials/releases/download/v5.4.0/sundials-5.4.0.tar.gz"
     sha256: "a60ba8155ca12261cf7623efcf9fd4232e95bcfefe480993ef71324176cb395b"
@@ -9,6 +12,9 @@ sources:
     url: "https://github.com/LLNL/sundials/releases/download/v5.2.0/sundials-5.2.0.tar.gz"
     sha256: "95f058acce5bd66e654de65acdbb1c9f44c90cf1b4e28f8d933cdb4415ebba3e"
 patches:
+  "5.5.0":
+    - patch_file: "patches/0001-disable-in-source-fail.patch"
+      base_path: "source_subfolder"
   "5.4.0":
     - patch_file: "patches/0001-disable-in-source-fail.patch"
       base_path: "source_subfolder"
