@@ -5,10 +5,16 @@ sources:
   "3.1.2":
     url: "https://github.com/AprilRobotics/apriltag/archive/3.1.2.tar.gz"
     sha256: "2759b044ff1dc9ef725e7c456b49283399ef78deee24754bc3617cbe369584f1"
+  "3.1.3":
+    url: "https://github.com/AprilRobotics/apriltag/archive/v3.1.3.tar.gz"
+    sha256: "a46ce9b63297f20423d7954a8cb0a4e409ab32449ceb45245616ad2d4dd61425"
 patches:
   "3.1.1":
     - patch_file: "patches/fix-cmake-3.1.1.patch"
       base_path: "source_subfolder"
   "3.1.2":
+    - patch_file: "patches/fix-cmake-3.1.2.patch"
+      base_path: "source_subfolder"
+  "3.1.3":
     - patch_file: "patches/fix-cmake-3.1.2.patch"
       base_path: "source_subfolder"
