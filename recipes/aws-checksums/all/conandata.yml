@@ -1,8 +1,18 @@
 sources:
+  "0.1.10":
+    url: "https://github.com/awslabs/aws-checksums/archive/v0.1.10.tar.gz"
+    sha256: "c9d0100a5743765fc8034e34e2310f77f59b1adab6f2e2f2d4d2a3bd81b2a36d"
   "0.1.5":
     sha256: "6e6bed6f75cf54006b6bafb01b3b96df19605572131a2260fddaf0e87949ced0"
     url: "https://github.com/awslabs/aws-checksums/archive/v0.1.5.tar.gz"
 patches:
+  "0.1.10":
+    - base_path: "source_subfolder"
+      patch_file: "patches/0001-use-PROJECT_SOURCE_DIR.cmake"
+    - base_path: "source_subfolder"
+      patch_file: "patches/0002-disable-overriding-fPIC.patch"
+    - base_path: "source_subfolder"
+      patch_file: "patches/0003-disable-building-tests.patch"
   "0.1.5":
     - base_path: "source_subfolder"
       patch_file: "patches/0001-use-PROJECT_SOURCE_DIR.cmake"
