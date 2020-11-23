@@ -1,4 +1,7 @@
 sources:
+  "1.7":
+    url: "https://github.com/syoyo/tinyobjloader/archive/v1.7.tar.gz"
+    sha256: "efe798f2c3aa4ede021761500615ca47e9849a43d9fad0473643130d0079c7a4"
   1.0.6:
     url: https://github.com/syoyo/tinyobjloader/archive/v1.0.6.zip
     sha256: ba549b59eafcdcd3d6a0ce367c9655affbc8e6f85053ea793a7333fe276879a2
