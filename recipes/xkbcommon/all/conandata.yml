@@ -1,4 +1,7 @@
 sources:
+  "1.0.2":
+    url: "https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-1.0.2.tar.gz"
+    sha256: "0a4bcfadfbf00b8dd225a6c54598cd227a92054c045b0b41f91672721b41e64d"
   "1.0.1":
     url: "https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-1.0.1.tar.gz"
     sha256: "270e2ad4ce5699f633e49042114cb68a5697fa1ed45b65c1d96a833cfac20954"
