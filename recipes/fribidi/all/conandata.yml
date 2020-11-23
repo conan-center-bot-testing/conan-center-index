@@ -1,8 +1,14 @@
 sources:
+  "1.0.10":
+    url: "https://github.com/fribidi/fribidi/archive/v1.0.10.tar.gz"
+    sha256: "3ebb19c4184ed6dc324d2e291d7465bc6108a20be019f053f33228e07e879c4f"
   "1.0.9":
     url: "https://github.com/fribidi/fribidi/releases/download/v1.0.9/fribidi-1.0.9.tar.xz"
     sha256: "c5e47ea9026fb60da1944da9888b4e0a18854a0e2410bbfe7ad90a054d36e0c7"
 patches:
+  "1.0.10":
+    - patch_file: "patches/0001-meson-no-tests-bin.patch"
+      base_path: "source_subfolder"
   "1.0.9":
     - patch_file: "patches/0001-meson-no-tests-bin.patch"
       base_path: "source_subfolder"
