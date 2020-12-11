@@ -1,4 +1,7 @@
 sources:
+  "247.1":
+    url: "https://github.com/systemd/systemd-stable/archive/v247.1.tar.gz"
+    sha256: "ff0503472d8680e93c14518442d94071c42452d7ad283d6a2042f11077b19230"
   "246.6":
     url: "https://github.com/systemd/systemd-stable/archive/v246.6.tar.gz"
     sha256: "e999dbf0cff5b0109c28b307741b7dc315877fe2e1999f25c153548db44bb020"
