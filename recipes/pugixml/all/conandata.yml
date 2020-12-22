@@ -1,4 +1,7 @@
 sources:
+  "1.11.3":
+    url: "https://github.com/zeux/pugixml/archive/v1.11.3.tar.gz"
+    sha256: "3a215dd7bd9cecaf5edf690ac9045e8f83e4a865004f01b8f0a351a037a6ef06"
   "1.11":
     url: "https://github.com/zeux/pugixml/archive/v1.11.tar.gz"
     sha256: "79b5e3a50dca0c150ab5fd282e23dd1da00760073a7040ca8dde4e031330add2"
