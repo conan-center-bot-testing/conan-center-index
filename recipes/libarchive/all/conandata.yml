@@ -5,3 +5,6 @@ sources:
   "3.4.3":
     url: "https://github.com/libarchive/libarchive/releases/download/v3.4.3/libarchive-3.4.3.tar.gz"
     sha256: "ee1e749213c108cb60d53147f18c31a73d6717d7e3d2481c157e1b34c881ea39"
+  "3.5.1":
+    url: "https://github.com/libarchive/libarchive/archive/v3.5.1.tar.gz"
+    sha256: "6d92e669e259a55a0119c135873469778f2718acbe605717f9d341487b4d0cba"
