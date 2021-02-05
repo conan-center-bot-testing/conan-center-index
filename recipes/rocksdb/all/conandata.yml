@@ -5,10 +5,16 @@ sources:
   "6.10.2":
     url: https://github.com/facebook/rocksdb/archive/v6.10.2.tar.gz
     sha256: 514b315c64159dd767bbbf6430d33313903c0c9240d4249bddead5c4297d128f
+  "6.15.4":
+    url: "https://github.com/facebook/rocksdb/archive/v6.15.4.tar.gz"
+    sha256: "845bc4597c69797b6731fb592d4e6e8b7995573f8ad2eea5cd34128715db750f"
 patches:
   "6.8.1":
     - patch_file: "patches/6.8.1/0001-Rename-jemalloc-according-to-conan-packages.patch"
       base_path: "source_subfolder"
   "6.10.2":
+    - patch_file: "patches/6.10.2/0001-Rename-jemalloc-according-to-conan-packages.patch"
+      base_path: "source_subfolder"
+  "6.15.4":
     - patch_file: "patches/6.10.2/0001-Rename-jemalloc-according-to-conan-packages.patch"
       base_path: "source_subfolder"
