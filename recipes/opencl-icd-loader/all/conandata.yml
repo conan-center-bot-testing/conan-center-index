@@ -1,4 +1,7 @@
 sources:
+  "2020.12.18":
+    url: "https://github.com/KhronosGroup/OpenCL-ICD-Loader/archive/v2020.12.18.tar.gz"
+    sha256: "7068299b4dec5b0bff29520ab1898b15fed8bf3ec623c951c80669e25c06209e"
   "2020.06.16":
     url: "https://github.com/KhronosGroup/OpenCL-ICD-Loader/archive/v2020.06.16.tar.gz"
     sha256: "e7a0c161376bfb46b869e292d4593a64f4ff7b358837494a5f2d765d9a2af683"
