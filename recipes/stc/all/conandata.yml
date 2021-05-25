@@ -1,4 +1,7 @@
 sources:
+  "1.1":
+    url: "https://github.com/tylov/STC/archive/v1.1.tar.gz"
+    sha256: "9c910bcda61f98064d059da4f27cecf5b241506113313173c9fecbbc1c909e18"
   "1.0.0-rc1":
     url: "https://github.com/tylov/STC/archive/refs/tags/v1.0.0-rc1.tar.gz"
     sha256: "503ae9c43c0584bd177c0c4bd69c0b31d26b213d84c6c2aabe4fd48eb3cf6b81"
