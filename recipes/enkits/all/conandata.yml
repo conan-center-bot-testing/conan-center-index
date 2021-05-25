@@ -1,8 +1,14 @@
 sources:
+  "1.9":
+    url: "https://github.com/dougbinks/enkiTS/archive/v1.9.tar.gz"
+    sha256: "4678526aa3f1a0e93d23c5c381ea56509441f4574ddbdf1f9aa01c6b3e659afd"
   "1.8":
     url: "https://github.com/dougbinks/enkiTS/archive/v1.8.zip"
     sha256: "b96d8d439502d52f9dc419539b12b588df10750f4631ad5518586f7048cdfaef"
 patches:
+  "1.9":
+    - patch_file: "patches/cmake-install-lib-location.patch"
+      base_path: "source_subfolder"
   "1.8":
     - patch_file: "patches/cmake-install-lib-location.patch"
       base_path: "source_subfolder"
