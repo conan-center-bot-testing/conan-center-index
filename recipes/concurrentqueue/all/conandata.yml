@@ -5,3 +5,6 @@ sources:
   "1.0.2":
     url: https://github.com/cameron314/concurrentqueue/archive/v1.0.2.zip
     sha256: 6dc85de0e38a014471fe3c653e3e21dc38a5f069cfc031a90fa59f0a45f7584f
+  "1.0.3":
+    url: "https://github.com/cameron314/concurrentqueue/archive/v1.0.3.tar.gz"
+    sha256: "eb37336bf9ae59aca7b954db3350d9b30d1cab24b96c7676f36040aa76e915e8"
